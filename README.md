@@ -1,12 +1,50 @@
-# React + Vite
+# AlphaVault — Token Discovery & Swap Analytics Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AlphaVault is a streamlined, data-driven **Token Discovery and Analytics dashboard** built for the Solana ecosystem using **Jupiter Aggregator APIs**. The platform enables users to explore token market data, monitor key metrics, and access swap estimates based on real-time liquidity and slippage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+The project addresses the need for an organized, accessible interface to discover tokens and analyze market conditions within the Solana DeFi space. By integrating Jupiter's pricing and swap quote APIs, AlphaVault presents users with actionable token insights through a clean, responsive interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Notably, this project was independently developed by a single participant, while other teams in the hackathon comprised 4–5 members.** Every aspect — from concept, design, and API integration to implementation and deployment — was executed individually within the event timeline.
+
+---
+
+## Features
+
+- **Token Discovery Dashboard:** Browse token information including price, market cap, liquidity, volatility, and volume.
+- **Advanced Search & Filters:** Quickly locate tokens by symbol or name, and filter based on volatility, slippage, and liquidity levels.
+- **Real-Time Token Metrics:** Integrated token data using Jupiter’s public APIs.
+- **Responsive UI:** Intuitive layout optimized for both desktop and mobile.
+
+---
+
+## Technical Implementation
+
+**Frontend:**
+- Vite + Vanilla JS (modular, component-based approach)
+- Custom CSS (clean, modern financial dashboard style)
+
+**APIs:**
+- **Jupiter Aggregator APIs**
+  - `quoteAPI.js` — Fetches swap quotes
+  - `priceAPI.js` — Retrieves token prices and liquidity data
+  - `tokenAPI.js` — Fetches supported token metadata
+
+**Deployment:**
+- Local development server via Vite  
+- Code structured in a modular `/src` directory for scalability
+
+---
+
+## Installation & Usage
+
+**Local Setup:**
+
+```bash
+git clone https://github.com/Lokeshrao69/AlphaVault..git
+cd AlphaVault/vite-project
+npm install
+npm run dev
