@@ -8,7 +8,7 @@ AlphaVault is a streamlined, data-driven **Token Discovery and Analytics dashboa
 
 The project addresses the need for an organized, accessible interface to discover tokens and analyze market conditions within the Solana DeFi space. By integrating Jupiter's pricing and swap quote APIs, AlphaVault presents users with actionable token insights through a clean, responsive interface.
 
-**Notably, this project was independently developed by a single participant, while other teams in the hackathon comprised 4–5 members.** Every aspect — from concept, design, and API integration to implementation and deployment — was executed individually within the event timeline.
+***Notably, this project was independently developed by a single participant, while other teams in the hackathon comprised 4–5 members.*** Every aspect — from concept, design, and API integration to implementation and deployment — was executed individually within the event timeline.
 
 ---
 
