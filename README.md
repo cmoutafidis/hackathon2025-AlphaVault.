@@ -39,9 +39,7 @@ The project addresses the need for an organized, accessible interface to discove
 
 ---
 
-## Installation & Usage
-
-**Local Setup:**
+App Link - https://alphavault.vercel.app/
 
 ```bash
 git clone https://github.com/Lokeshrao69/AlphaVault..git
